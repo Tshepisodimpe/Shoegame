@@ -1,0 +1,212 @@
+/*
+	
+	Shoes game by Tshepiso Dimpe
+	Showcasing my skills and practising at the same time
+/*/*/
+*{
+            margin:0;
+            padding:0;
+  }
+  /*-------------------------------------------------------
+                    HEADING PART 
+  ---------------------------------------------------------*/
+  header{ background-color: rgba(15,15,15, 0.7);}
+ .top{
+       background-image: url("../images/bg_shoes.jpg");
+       
+       min-height: 100vh; width: 100%; 
+       position:relative; 
+       background-size:cover; 
+       background-position: center; background-repeat: no-repeat;
+       
+      }
+ nav{ 
+      display: flex; 
+      padding: 2% 6%; 
+      justify-content: space-between; 
+      align-items: center;
+      
+     
+     }
+.title{ 
+       font-size: 30px; 
+       text-decoration: none; 
+       color: white; 
+       font-family: 'Titillium', sans-serif;
+       
+       }
+.lists ul li{
+              list-style: none;
+              display: inline-block;
+              padding :8px 8px;
+              position: relative; 
+			  }
+.lists ul li a{ 
+               font-size: 20px;color:white; 
+               text-decoration: none; 
+               font-family:'Titillium', sans-serif;
+               padding:10px 10px 10px 10px;
+        } 
+     .current{ color: orange; border: solid 1px; 
+                border-radius: 50px 50px 50px 50px;
+               padding: 12px 0 12px 0;}
+.heading{ 
+          transition: 0.2s; 
+          font-size: 55px; 
+          font-family: 'Titillium', sans-serif; 
+          color: white; 
+          text-align: center; 
+          padding-top:55px;
+         
+                }
+.para{ 
+        
+        font-size: 20px; 
+        color: white; text-align: center; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.views {  
+         
+         font-size: 23px; 
+         
+         color: white; 
+         text-align: center; margin-left: 610px; 
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+         border: solid 1px; 
+         padding: 8px 15px 8px 15px;
+         background-color: transparent; 
+         font-weight: bolder;
+         text-decoration:none;
+         border-radius: 50px 50px 50px 50px ;}
+       /*--------------------------------------------
+                SECTION 1
+       -----------------------------------------------*/
+       .div1{  background-image: url("../images/sneaker.jpg"); 
+               width:50%; 
+               background-size: contain; background-repeat: no-repeat;}
+       .div2{  width: 65%; margin-left: 140px;}
+       .tb1{  width:100%; 
+               min-height: 70vh;}
+       .div2td{ width:50%; }
+       .para2{ font-family:'Gill Sans', 'Gill Sans MT', 
+               Calibri, 'Trebuchet MS', sans-serif;
+               line-height: 30px;
+               font-size: 20px;}
+       h2{ font-family:'Gill Sans', 'Gill Sans MT', 
+            Calibri, 'Trebuchet MS', sans-serif;  }
+    .link1{ font-family:'Gill Sans', 'Gill Sans MT', 
+            Calibri, 'Trebuchet MS', sans-serif; 
+            background-color: yellow; color:black;
+            font-weight: bolder;
+            text-decoration: none;
+         }
+            /*--------------------------------------------
+                SECTION 2
+       -----------------------------------------------*/
+       .tb2{ width: 100%; min-height: 90vh; margin-top: -20px;}
+       .td3{ width:50%; }
+       .td4{  
+             width: 50%; 
+             background-image: url("../images/Boots.jpg");
+             background-size: cover; 
+             background-repeat: no-repeat;}
+        .div3{  width: 60%; margin-left: 125px; line-height: 20px;}
+       h3{ 
+            font-family:'Gill Sans', 'Gill Sans MT', 
+            Calibri, 'Trebuchet MS', 
+            sans-serif; 
+            font-weight: bolder;
+            font-size: 30px;}
+       .para3{  
+               font-family:'Gill Sans', 'Gill Sans MT', 
+               Calibri, 'Trebuchet MS', sans-serif;
+               line-height: 30px;
+               font-size: 20px;}
+        .link2{ font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
+                background-color: yellow; color:black;
+                font-weight: bolder;
+                text-decoration: none;}
+                /*--------------------------------------------
+                SECTION 3
+       -----------------------------------------------*/
+       .tb3{ width:100%; min-height: 90vh; }
+       .td5{ width: 50%;
+             background-image: url("../images/heels.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+          }
+       .td6{ 
+             
+             width: 50%;
+            }
+       .div6{  
+               width: 60%; 
+               margin-left: 110px;
+               font-family:'Gill Sans', 'Gill Sans MT', 
+               Calibri, 'Trebuchet MS', sans-serif;
+               line-height: 30px;
+               font-size: 20px;
+            }
+          h4{ 
+              font-family:'Gill Sans', 'Gill Sans MT', 
+              Calibri, 'Trebuchet MS', 
+              sans-serif; 
+              font-weight: bolder;
+              font-size: 30px;
+             }
+        .link3{
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', sans-serif; 
+                background-color: yellow; color:black;
+                font-weight: bolder; 
+                text-decoration: none;
+            }
+         /*--------------------------------------------
+                SECTION 3
+       -----------------------------------------------*/
+       .sales{ 
+               background-color: black;
+               text-align: center;
+                
+             }
+       .sale {
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', 
+                sans-serif; 
+                font-size: 30px;
+                color: white;
+                padding-top: -65px;
+                padding-bottom: 55px;
+              }
+        h5   { 
+                padding-top: 50px;
+                font-weight: bolder;
+                font-size: 30px; 
+                color: white;   
+              }
+        .sale1{
+                font-family:'Gill Sans', 'Gill Sans MT', 
+                Calibri, 'Trebuchet MS', 
+                sans-serif; 
+                font-size: 22px;
+                color: black;
+               
+                text-align:center;
+              }
+              /*--------------------------------------------
+                SECTION 4
+       -----------------------------------------------*/
+        .foot{ text-align: center;
+               width: 100%;
+               font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               font-size: 23px;
+             }
+        .foot1{
+                width: 33.3%;  
+              }
+        .foot2{
+                 width:33.3%
+              }
+        .foot3{
+                width: 33.3%;
+              }
